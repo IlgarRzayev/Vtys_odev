@@ -1,0 +1,1 @@
+javac -cp ./src/*.java:./lib/* -d ./bin ./src/*.java
