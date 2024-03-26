@@ -72,7 +72,7 @@ public class vtys_odev extends JFrame {
             // MySQL bağlantısı için gerekli bilgileri güncelleyin
             String jdbcUrl = "jdbc:mysql://localhost:3306/odev4";
             String username = "root";
-            String password = "Ilgar*2023";
+            String password = "password;
 
             //Veritabanına bağlantı oluşturmak için kullanılır. Bağlantı bilgileri URL'de belirtilir.
             connection = DriverManager.getConnection(jdbcUrl, username, password);
@@ -236,7 +236,7 @@ class ProjectManagementGUI extends JFrame {
             // MySQL bağlantısı için gerekli bilgileri güncelleyin
             String jdbcUrl = "jdbc:mysql://localhost:3306/odev4";
             String username = "root";
-            String password = "Ilgar*2023";
+            String password = "password";
 
             connection = DriverManager.getConnection(jdbcUrl, username, password);
         } catch (SQLException e) {
